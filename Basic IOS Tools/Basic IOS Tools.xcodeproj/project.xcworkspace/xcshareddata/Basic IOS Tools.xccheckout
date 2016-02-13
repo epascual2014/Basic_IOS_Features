@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C5DD218F-F7A0-43DE-BCCA-E0F578BAF476</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EF9FC02BC9908D666079D0AF9A9503132BDD73EE</key>
+		<string>https://github.com/epascual2014/Basic_IOS_Features.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Basic IOS Tools/Basic IOS Tools.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EF9FC02BC9908D666079D0AF9A9503132BDD73EE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/epascual2014/Basic_IOS_Features.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EF9FC02BC9908D666079D0AF9A9503132BDD73EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EF9FC02BC9908D666079D0AF9A9503132BDD73EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Basic_IOS_Features</string>
+		</dict>
+	</array>
+</dict>
+</plist>
