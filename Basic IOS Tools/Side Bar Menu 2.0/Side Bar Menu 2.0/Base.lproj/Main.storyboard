@@ -51,6 +51,9 @@
                     <navigationItem key="navigationItem" id="rhq-gR-AOD">
                         <barButtonItem key="leftBarButtonItem" title="MENU" id="CmG-Ud-ynj" customClass="Main"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="CmG-Ud-ynj" id="AVX-ko-ygP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YLi-vg-idT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
