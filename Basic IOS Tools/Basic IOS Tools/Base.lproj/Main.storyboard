@@ -35,11 +35,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Neg-Uc-YUg">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="Neg-Uc-YUg">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Neg-Uc-YUg" id="GMR-H9-A2I">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="X7f-mN-3Ki" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="flW-fj-3v2"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -55,7 +58,6 @@
         <!--View Controller-->
         <scene sceneID="I5B-CS-efr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zGA-Wg-Ewt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="X7f-mN-3Ki" customClass="ViewController" customModule="Basic_IOS_Tools" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gn4-mB-zOD"/>
@@ -73,6 +75,7 @@
                         <outlet property="sideBarMenuOpen" destination="JgU-vL-bI9" id="sEP-2a-zJK"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zGA-Wg-Ewt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1341" y="604"/>
         </scene>
@@ -93,4 +96,7 @@
             <point key="canvasLocation" x="681" y="862"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="flW-fj-3v2"/>
+    </inferredMetricsTieBreakers>
 </document>

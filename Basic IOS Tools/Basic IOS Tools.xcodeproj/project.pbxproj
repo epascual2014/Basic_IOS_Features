@@ -15,6 +15,7 @@
 		614B7D581C6FF8B2009A077E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614B7D561C6FF8B2009A077E /* LaunchScreen.xib */; };
 		614B7D641C6FF8B2009A077E /* Basic_IOS_ToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B7D631C6FF8B2009A077E /* Basic_IOS_ToolsTests.swift */; };
 		614B7D701C6FFAB6009A077E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 614B7D6F1C6FFAB6009A077E /* SWRevealViewController.m */; };
+		614B7D721C6FFE80009A077E /* rearTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B7D711C6FFE80009A077E /* rearTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		614B7D6D1C6FFAB5009A077E /* Basic IOS Tools-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Basic IOS Tools-Bridging-Header.h"; sourceTree = "<group>"; };
 		614B7D6E1C6FFAB6009A077E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		614B7D6F1C6FFAB6009A077E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		614B7D711C6FFE80009A077E /* rearTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rearTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				614B7D4A1C6FF8B2009A077E /* AppDelegate.swift */,
 				614B7D4F1C6FF8B2009A077E /* ViewController.swift */,
 				614B7D511C6FF8B2009A077E /* Main.storyboard */,
+				614B7D711C6FFE80009A077E /* rearTableViewController.swift */,
 				614B7D541C6FF8B2009A077E /* Images.xcassets */,
 				614B7D561C6FF8B2009A077E /* LaunchScreen.xib */,
 				614B7D4C1C6FF8B2009A077E /* Basic_IOS_Tools.xcdatamodeld */,
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				614B7D501C6FF8B2009A077E /* ViewController.swift in Sources */,
+				614B7D721C6FFE80009A077E /* rearTableViewController.swift in Sources */,
 				614B7D4E1C6FF8B2009A077E /* Basic_IOS_Tools.xcdatamodeld in Sources */,
 				614B7D4B1C6FF8B2009A077E /* AppDelegate.swift in Sources */,
 				614B7D701C6FFAB6009A077E /* SWRevealViewController.m in Sources */,
