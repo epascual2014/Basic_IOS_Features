@@ -106,10 +106,10 @@
             </objects>
             <point key="canvasLocation" x="2182" y="721"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="QXQ-eb-33m">
             <objects>
-                <viewController id="9Ke-5R-e69" sceneMemberID="viewController">
+                <viewController id="9Ke-5R-e69" customClass="ProfileViewController" customModule="Side_Bar_Menu_2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="J2z-v5-yKR"/>
                         <viewControllerLayoutGuide type="bottom" id="QdI-Tr-RJH"/>
@@ -130,6 +130,9 @@
                     <navigationItem key="navigationItem" id="3Lz-K2-swS">
                         <barButtonItem key="leftBarButtonItem" title="MENU" id="RUa-Sl-qjH"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="RUa-Sl-qjH" id="rVr-cX-U0N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lqV-zb-geE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
