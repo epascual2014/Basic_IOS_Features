@@ -1,3 +1,4 @@
+
 //
 //  ViewController.swift
 //  Basic IOS Tools
@@ -10,9 +11,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var sideBarMenuOpen: UIBarButtonItem!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+      
+        sideBarMenuOpen.target = self.revealViewController()
+        
+        // Will call selector located in the SWReveal File
+        sideBarMenuOpen.action = Selector("revealToggle:")
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
