@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F5FA000F-39E6-4918-8C3B-D365F318CC81</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Side Bar Menu 2.0</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>EF9FC02BC9908D666079D0AF9A9503132BDD73EE</key>
 		<string>https://github.com/epascual2014/Basic_IOS_Features.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Basic IOS Tools/Side Bar Menu 2.0/Side Bar Menu 2.0.xcodeproj/project.xcworkspace</string>
+	<string>Basic IOS Tools/Side Bar Menu 2.0/Side Bar Menu 2.0.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EF9FC02BC9908D666079D0AF9A9503132BDD73EE</key>

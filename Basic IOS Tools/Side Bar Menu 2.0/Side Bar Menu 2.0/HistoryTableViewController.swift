@@ -1,5 +1,5 @@
 //
-//  FriendsTableViewController.swift
+//  HistoryTableViewController.swift
 //  Side Bar Menu 2.0
 //
 //  Created by Edrick Pascual on 2/13/16.
@@ -8,10 +8,9 @@
 
 import UIKit
 
-class FriendsTableViewController: UITableViewController {
+class HistoryTableViewController: UITableViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,6 +23,8 @@ class FriendsTableViewController: UITableViewController {
             
         }
 
+
+       
     }
 
     override func didReceiveMemoryWarning() {
