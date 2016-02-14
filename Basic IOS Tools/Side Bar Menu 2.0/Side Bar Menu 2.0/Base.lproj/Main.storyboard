@@ -76,17 +76,17 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FRIENDS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kpl-9x-a23">
-                                                    <rect key="frame" x="44" y="11" width="72" height="21"/>
+                                                    <rect key="frame" x="8" y="8" width="584" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="kpl-9x-a23" firstAttribute="leading" secondItem="hKS-x4-4Ny" secondAttribute="leadingMargin" constant="36" id="60P-tn-bTN"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="kpl-9x-a23" secondAttribute="trailing" constant="476" id="BlD-tv-SFv"/>
+                                                <constraint firstItem="kpl-9x-a23" firstAttribute="leading" secondItem="hKS-x4-4Ny" secondAttribute="leadingMargin" id="60P-tn-bTN"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="kpl-9x-a23" secondAttribute="trailing" id="BlD-tv-SFv"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="kpl-9x-a23" secondAttribute="bottom" constant="3" id="N12-kx-ubX"/>
-                                                <constraint firstItem="kpl-9x-a23" firstAttribute="top" secondItem="hKS-x4-4Ny" secondAttribute="topMargin" constant="3" id="re8-5p-Pat"/>
+                                                <constraint firstItem="kpl-9x-a23" firstAttribute="top" secondItem="hKS-x4-4Ny" secondAttribute="topMargin" id="re8-5p-Pat"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -98,7 +98,9 @@
                             <outlet property="delegate" destination="OQ3-n3-6xZ" id="uK6-RY-5h5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="J2w-Xs-Vl0"/>
+                    <navigationItem key="navigationItem" id="J2w-Xs-Vl0">
+                        <barButtonItem key="leftBarButtonItem" title="MENU" id="z5x-Mh-4Ej"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fOT-BR-rMr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -125,7 +127,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="3Lz-K2-swS"/>
+                    <navigationItem key="navigationItem" id="3Lz-K2-swS">
+                        <barButtonItem key="leftBarButtonItem" title="MENU" id="RUa-Sl-qjH"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lqV-zb-geE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -181,6 +185,9 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="2O0-5w-ObX" secondAttribute="trailing" id="QXg-Ut-Qpy"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="PLA-si-tKM" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="a1W-3K-ZDY"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="lhM-Fl-5xL">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -201,6 +208,9 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="ISP-xJ-hIG" secondAttribute="bottom" id="dGT-TC-1tQ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="0cs-uT-9sQ" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="uDm-DT-ldW"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
