@@ -31,16 +31,4 @@ class rearTableViewController: UITableViewController {
         
     }
     
-    // Pass the data for segue
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
-        var destinationViewController = segue.destinationViewController as! ViewController
-        
-        // Created own Indexpath and assigning it to itself
-        var indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow()!
-        
-        // Grabbing which specific row and changing the text Label
-        destinationViewController.varView = indexPath.row
-    }
-    
 }
