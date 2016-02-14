@@ -141,10 +141,10 @@
             </objects>
             <point key="canvasLocation" x="1476" y="657"/>
         </scene>
-        <!--View Controller-->
+        <!--Gesture Recognizer-->
         <scene sceneID="zCj-BL-dCq">
             <objects>
-                <viewController id="cA3-6Z-vk9" sceneMemberID="viewController">
+                <viewController id="cA3-6Z-vk9" customClass="gestureRecognizer" customModule="Basic_IOS_Tools" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qgt-Jk-mBd"/>
                         <viewControllerLayoutGuide type="bottom" id="Ksl-eo-evb"/>

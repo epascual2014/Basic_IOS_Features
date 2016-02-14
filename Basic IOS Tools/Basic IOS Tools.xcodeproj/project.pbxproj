@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6146DAB31C7012D3000B6BF2 /* gestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146DAB21C7012D3000B6BF2 /* gestureRecognizer.swift */; };
 		614B7D4B1C6FF8B2009A077E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B7D4A1C6FF8B2009A077E /* AppDelegate.swift */; };
 		614B7D4E1C6FF8B2009A077E /* Basic_IOS_Tools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 614B7D4C1C6FF8B2009A077E /* Basic_IOS_Tools.xcdatamodeld */; };
 		614B7D501C6FF8B2009A077E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B7D4F1C6FF8B2009A077E /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6146DAB21C7012D3000B6BF2 /* gestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gestureRecognizer.swift; sourceTree = "<group>"; };
 		614B7D451C6FF8B2009A077E /* Basic IOS Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic IOS Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		614B7D491C6FF8B2009A077E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		614B7D4A1C6FF8B2009A077E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				614B7D4A1C6FF8B2009A077E /* AppDelegate.swift */,
 				614B7D4F1C6FF8B2009A077E /* ViewController.swift */,
 				614B7D511C6FF8B2009A077E /* Main.storyboard */,
+				6146DAB21C7012D3000B6BF2 /* gestureRecognizer.swift */,
 				614B7D711C6FFE80009A077E /* rearTableViewController.swift */,
 				614B7D541C6FF8B2009A077E /* Images.xcassets */,
 				614B7D561C6FF8B2009A077E /* LaunchScreen.xib */,
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				614B7D501C6FF8B2009A077E /* ViewController.swift in Sources */,
+				6146DAB31C7012D3000B6BF2 /* gestureRecognizer.swift in Sources */,
 				614B7D721C6FFE80009A077E /* rearTableViewController.swift in Sources */,
 				614B7D4E1C6FF8B2009A077E /* Basic_IOS_Tools.xcdatamodeld in Sources */,
 				614B7D4B1C6FF8B2009A077E /* AppDelegate.swift in Sources */,
@@ -432,6 +436,7 @@
 				614B7D691C6FF8B2009A077E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		614B7D6A1C6FF8B2009A077E /* Build configuration list for PBXNativeTarget "Basic IOS ToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +445,7 @@
 				614B7D6C1C6FF8B2009A077E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
