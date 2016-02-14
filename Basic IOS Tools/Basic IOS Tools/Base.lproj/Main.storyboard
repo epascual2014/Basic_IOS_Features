@@ -40,18 +40,27 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" tableViewCell="Neg-Uc-YUg" id="GMR-H9-A2I">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="cA3-6Z-vk9" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="NHz-7P-Sgs"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wLv-E7-H14">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" tableViewCell="wLv-E7-H14" id="PO2-W1-ZLB">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="gd1-wH-2MD" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="gOz-yy-SfE"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="kC5-R4-xrq">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" tableViewCell="kC5-R4-xrq" id="icB-7a-sfA">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="E8h-ux-1t8" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="pP1-fV-kKw"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -96,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nKO-Tb-rUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1374" y="125"/>
+            <point key="canvasLocation" x="1374" y="-11"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Epn-Tr-yay">
@@ -114,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGB-bw-tKh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1374" y="801"/>
+            <point key="canvasLocation" x="1510" y="663"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zCj-BL-dCq">
@@ -132,7 +141,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z2E-t1-tLt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1374" y="1461"/>
+            <point key="canvasLocation" x="1310" y="903"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="NHz-7P-Sgs"/>
+    </inferredMetricsTieBreakers>
 </document>
