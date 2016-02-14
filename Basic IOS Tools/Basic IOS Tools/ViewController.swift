@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         // Will call selector located in the SWReveal File
         sideBarMenuOpen.action = Selector("revealToggle:")
         
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        
         
         
     }
