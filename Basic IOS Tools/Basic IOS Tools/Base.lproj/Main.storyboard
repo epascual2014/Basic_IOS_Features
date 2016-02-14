@@ -24,7 +24,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOH-xm-gXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2" y="604"/>
+            <point key="canvasLocation" x="-144" y="462"/>
         </scene>
         <!--Rear Table View Controller-->
         <scene sceneID="MSk-Fj-ihE">
@@ -113,7 +113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nKO-Tb-rUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1374" y="-11"/>
+            <point key="canvasLocation" x="1640" y="3"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Epn-Tr-yay">
@@ -139,7 +139,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGB-bw-tKh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1476" y="657"/>
+            <point key="canvasLocation" x="1640" y="669"/>
         </scene>
         <!--Gesture Recognizer-->
         <scene sceneID="zCj-BL-dCq">
@@ -166,7 +166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z2E-t1-tLt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1356" y="1049"/>
+            <point key="canvasLocation" x="1640" y="1327"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
