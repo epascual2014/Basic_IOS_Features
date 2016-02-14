@@ -27,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="-100" y="323"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="Yrp-DI-Hc1">
             <objects>
-                <viewController id="bJD-cp-NZK" sceneMemberID="viewController">
+                <viewController id="bJD-cp-NZK" customClass="MainViewController" customModule="Side_Bar_Menu_2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xr8-nb-7Vc"/>
                         <viewControllerLayoutGuide type="bottom" id="crd-vY-Rll"/>
@@ -48,7 +48,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rhq-gR-AOD"/>
+                    <navigationItem key="navigationItem" id="rhq-gR-AOD">
+                        <barButtonItem key="leftBarButtonItem" title="MENU" id="CmG-Ud-ynj" customClass="Main"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YLi-vg-idT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

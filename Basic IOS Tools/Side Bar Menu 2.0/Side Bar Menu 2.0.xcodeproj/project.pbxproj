@@ -15,6 +15,7 @@
 		6146DAD01C704C7D000B6BF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6146DACE1C704C7D000B6BF2 /* LaunchScreen.xib */; };
 		6146DADC1C704C7D000B6BF2 /* Side_Bar_Menu_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146DADB1C704C7D000B6BF2 /* Side_Bar_Menu_2_0Tests.swift */; };
 		6146DAE81C704CDE000B6BF2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6146DAE71C704CDE000B6BF2 /* SWRevealViewController.m */; };
+		6146DAEA1C705081000B6BF2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146DAE91C705081000B6BF2 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		6146DAE51C704CDD000B6BF2 /* Side Bar Menu 2.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Side Bar Menu 2.0-Bridging-Header.h"; sourceTree = "<group>"; };
 		6146DAE61C704CDE000B6BF2 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		6146DAE71C704CDE000B6BF2 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		6146DAE91C705081000B6BF2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				6146DAC21C704C7D000B6BF2 /* AppDelegate.swift */,
 				6146DAC71C704C7D000B6BF2 /* ViewController.swift */,
 				6146DAC91C704C7D000B6BF2 /* Main.storyboard */,
+				6146DAE91C705081000B6BF2 /* MainViewController.swift */,
 				6146DACC1C704C7D000B6BF2 /* Images.xcassets */,
 				6146DACE1C704C7D000B6BF2 /* LaunchScreen.xib */,
 				6146DAC41C704C7D000B6BF2 /* Side_Bar_Menu_2_0.xcdatamodeld */,
@@ -226,6 +229,7 @@
 				6146DAC31C704C7D000B6BF2 /* AppDelegate.swift in Sources */,
 				6146DAC61C704C7D000B6BF2 /* Side_Bar_Menu_2_0.xcdatamodeld in Sources */,
 				6146DAE81C704CDE000B6BF2 /* SWRevealViewController.m in Sources */,
+				6146DAEA1C705081000B6BF2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
