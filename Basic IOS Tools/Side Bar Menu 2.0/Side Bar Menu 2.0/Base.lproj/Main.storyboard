@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="1588" y="47"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Friends Table View Controller-->
         <scene sceneID="xEI-Nw-Yhw">
             <objects>
-                <tableViewController id="OQ3-n3-6xZ" sceneMemberID="viewController">
+                <tableViewController id="OQ3-n3-6xZ" customClass="FriendsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="mJc-BF-OWG">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,6 +101,9 @@
                     <navigationItem key="navigationItem" id="J2w-Xs-Vl0">
                         <barButtonItem key="leftBarButtonItem" title="MENU" id="z5x-Mh-4Ej"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="z5x-Mh-4Ej" id="6I8-5E-BMA"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fOT-BR-rMr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -281,6 +284,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xZu-kj-cM9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1370" y="1389"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UK5-7Q-OfK">
+            <objects>
+                <viewController id="fIb-A7-yaL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JVw-mQ-yAu"/>
+                        <viewControllerLayoutGuide type="bottom" id="1TI-dM-WrI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gNw-K9-uyE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M66-Lr-La8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1370" y="2059"/>
         </scene>
     </scenes>
 </document>
