@@ -11,7 +11,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var testLabel: UILabel!
+    
     @IBOutlet weak var sideBarMenuOpen: UIBarButtonItem!
+    
+    var varView = Int()
     
     
     override func viewDidLoad() {
@@ -24,6 +28,14 @@ class ViewController: UIViewController {
         
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
+        if (varView == 0){
+            
+            testLabel.text = "Labels Test"
+            
+        } else {
+            
+            testLabel.text = "Others"
+        }
         
         
     }
