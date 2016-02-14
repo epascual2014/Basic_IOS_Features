@@ -57,7 +57,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YLi-vg-idT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1370" y="67"/>
+            <point key="canvasLocation" x="1588" y="47"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="xEI-Nw-Yhw">
@@ -165,6 +165,9 @@
                                                 <constraint firstItem="usw-LS-i7Q" firstAttribute="leading" secondItem="TmH-x9-Kou" secondAttribute="leadingMargin" id="PYm-6c-B5w"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="PLA-si-tKM" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="uap-RF-Lva"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="UH0-hC-4JV">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -186,7 +189,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="PLA-si-tKM" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="a1W-3K-ZDY"/>
+                                            <segue destination="0cs-uT-9sQ" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="ICP-Rv-9YZ"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="lhM-Fl-5xL">
@@ -208,9 +211,6 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="ISP-xJ-hIG" secondAttribute="bottom" id="dGT-TC-1tQ"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="0cs-uT-9sQ" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="uDm-DT-ldW"/>
-                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -241,7 +241,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8UJ-O5-F4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="734" y="67"/>
+            <point key="canvasLocation" x="954" y="47"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fuz-Bq-GOd">
