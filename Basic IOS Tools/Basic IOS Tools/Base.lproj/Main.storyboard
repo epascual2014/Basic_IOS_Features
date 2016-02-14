@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="2" y="604"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Rear Table View Controller-->
         <scene sceneID="MSk-Fj-ihE">
             <objects>
-                <tableViewController id="n8M-JP-Mdj" sceneMemberID="viewController">
+                <tableViewController id="n8M-JP-Mdj" customClass="rearTableViewController" customModule="Basic_IOS_Tools" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ljF-nn-aOD">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
