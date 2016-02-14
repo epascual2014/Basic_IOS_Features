@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>C5DD218F-F7A0-43DE-BCCA-E0F578BAF476</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Basic IOS Tools</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>EF9FC02BC9908D666079D0AF9A9503132BDD73EE</key>
 		<string>https://github.com/epascual2014/Basic_IOS_Features.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Basic IOS Tools/Basic IOS Tools.xcodeproj/project.xcworkspace</string>
+	<string>Basic IOS Tools/Basic IOS Tools.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EF9FC02BC9908D666079D0AF9A9503132BDD73EE</key>
