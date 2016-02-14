@@ -13,7 +13,7 @@ class rearTableViewController: UITableViewController {
     var tableArray = [String]()
     
     override func viewDidLoad() {
-        tableArray = ["Sample Menu 1","Sample Menu 2","Sample Menu 3"]
+        tableArray = ["PROFILE","ROUTES","FRIENDS"]
     }
     
     
